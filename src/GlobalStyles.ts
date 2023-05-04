@@ -11,6 +11,7 @@ body{
     font-family: 'Manrope', sans-serif;
     width: 100%;
     min-height: 100vh;
+    font-weight: 800;
 }
 `;
 

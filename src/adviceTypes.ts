@@ -1,4 +1,4 @@
 export default interface adviceTypes {
-  id?: number;
+  id: number;
   advice: string;
 }
