@@ -92,7 +92,6 @@ const Container = styled.div`
     max-width: 540px;
     border-radius: 15px;
     padding: 48px 48px 79px 48px;
-    min-height: 332px;
 
     h1 {
       font-size: 13px;
