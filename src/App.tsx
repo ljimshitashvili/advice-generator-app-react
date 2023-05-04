@@ -6,11 +6,17 @@ import { useState } from "react";
 
 function App() {
   const [info, setInfo] = useState<adviceTypes | null>(null);
+  const [counter, setCounter] = useState<boolean>(true);
 
   return (
     <MainContainer>
       <GlobalStyles />
-      <Card info={info} setInfo={setInfo} />
+      <Card
+        info={info}
+        setInfo={setInfo}
+        counter={counter}
+        setCounter={setCounter}
+      />
     </MainContainer>
   );
 }
